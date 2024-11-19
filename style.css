@@ -1,0 +1,51 @@
+#header{
+background-image: url("https://www.photocase.com/photos/2538620-coffee-beans-on-wooden-table-background-grain-photocase-stock-photo-large.jpeg");
+background-size: cover;
+  min-height: 20vh;
+  padding: 10px 0px;
+  text-align: center;
+  color:yellow;
+  font-size: 2.8vw;
+}
+
+
+nav a {
+color:yellow;
+text-decoration: none;
+font-size: 2.5vw;
+ font-weight: bolder 
+}
+
+nav{
+display: flex;
+  justify-content: space-around;
+}
+
+
+main{
+  display: flex;
+  margin-top:10px;
+}
+
+main img{
+  width: 30%;
+  object-fit: cover;
+}
+
+section{
+  margin:2px;
+  padding: 2px;
+}
+#imgbox img{
+width: 30%;
+height: 250px;
+object-fit: cover;
+  border-radius: 16px;
+}
+#imgbox{
+display:flex;
+flex-wrap: wrap;
+justify-content: space-around;
+  row-gap: 10px;
+  
+}
